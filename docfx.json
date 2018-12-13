@@ -35,8 +35,6 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/fusion-toc-demo/breadcrumb/toc.json",
-      "extendBreadcrumb": true,
       "feedback_system": "None"
     },
     "fileMetadata": {},
