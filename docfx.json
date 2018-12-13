@@ -1,24 +1,53 @@
 {
   "build": {
-    "content": [
+    "content": [{
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "group": "conceptual",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "conceptual"
+      },
       {
         "files": [
           "**/*.md",
           "**/*.yml"
         ],
+        "group": "reference",
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "reference"
       }
     ],
-    "resource": [
+    "resource": [{
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "_themes/**",
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "conceptual",
+        "group": "conceptual"
+      },
       {
         "files": [
           "**/*.png",
@@ -26,20 +55,30 @@
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
-          "_themes/**",
-          "_themes.pdf/**"
-        ]
+          "**/includes/**"
+        ],
+        "src": "reference",
+        "group": "reference"
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "feedback_system": "None"
+      "uhfHeaderId": "MSDocsHeader-DotNet"
+
     },
     "fileMetadata": {},
     "template": [],
     "dest": "fusion-toc-demo",
+    "exportRawModel": true,
+    "groups": {
+      "conceptual": {
+        "dest": "conceptual"
+      },
+      "reference": {
+        "dest": "reference"
+      }
+    },
     "markdownEngineName": "markdig"
   }
 }
