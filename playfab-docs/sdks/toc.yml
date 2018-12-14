@@ -1,0 +1,81 @@
+- name: SDKS
+  href: /gaming/playfab/sdks
+  items:
+  - name: ActionScript
+    href: ./actionscript/index.md
+    items:
+    - name: Quickstart
+      href: ./actionscript/quickstart.md
+  - name:  C++
+    href: ./xplatcpp/index.md
+    items:
+    - name: Quickstart - Windows
+      href: ./xplatcpp/quickstart-windows.md
+    - name: Quickstart - Linux
+      href: ./xplatcpp/quickstart-linux.md
+  - name:  C#
+    href: ./c-sharp/index.md
+    items:
+    - name: Quickstart - C#
+      href: ./c-sharp/quickstart-c-sharp.md
+    - name: Quickstart - Xamarin
+      href: ./c-sharp/quickstart-xamarin.md
+  - name: Cocos2d-x
+    href: ./cocos2d-x/index.md
+    items:
+    - name: Quickstart
+      href: ./cocos2d-x/quickstart.md
+  - name:  Java
+    href: ./java/index.md
+    items:
+    - name: Quickstart
+      href: ./java/quickstart.md
+  - name: Javascript
+    href: ./javascript/index.md
+    items:
+    - name: Quickstart
+      href: ./javascript/quickstart.md
+  - name:  Lua
+    href: ./lua/index.md
+    items:
+    - name: Quickstart - Corona
+      href: ./lua/quickstart-corona.md
+    - name: Quickstart - Defold
+      href: ./lua/quickstart-defold.md
+  - name: NodeJS
+    href: ./nodejs/index.md
+    items:
+    - name: Quickstart
+      href: ./nodejs/quickstart.md
+  - name:  Objective-C
+    href: ./objective-c/index.md
+    items:
+    - name: Quickstart
+      href: ./objective-c/quickstart.md
+  - name: PHP
+    href: ./php/index.md
+    items:
+    - name: Quickstart
+      href: ./php/quickstart.md
+  - name:  Postman
+    href: ./postman/index.md
+    items:
+    - name: Quickstart
+      href: ./postman/quickstart.md
+  - name: Python
+    href: ./python/index.md
+    items:
+    - name: Quickstart
+      href: ./python/quickstart.md
+  - name:  Unity3D
+    href: ./unity3d/index.md
+    items:
+    - name: Quickstart
+      href: ./unity3d/quickstart.md
+  - name: Unreal Engine
+    href: ./unreal/index.md
+    items:
+    - name: Quickstart
+      href: ./unreal/quickstart.md
+    - name: Upgrade Tutorial
+      href: ./unreal/unreal-marketplace-plugin-upgrade-tutorial.md
