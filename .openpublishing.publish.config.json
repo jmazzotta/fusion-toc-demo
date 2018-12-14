@@ -23,7 +23,7 @@
       "template_folder": "_themes",
       "JoinTOCPlugin": [{
         "ConceptualTOC": "playfab-docs/api-references/toc.yml",
-        "ReferenceTOCUrl": "/rest/api/playfab/toc.json"
+        "ReferenceTOCUrl": "playfab-docs/release-notes/toc.yml"
       }]
     }
   ],
