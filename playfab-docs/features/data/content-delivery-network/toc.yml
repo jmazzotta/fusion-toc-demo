@@ -1,6 +1,0 @@
-- name: Content Delivery Network
-  href: index.md
-  items:
-  - name: Quickstart
-    href: quickstart.md
-
