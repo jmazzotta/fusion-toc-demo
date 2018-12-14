@@ -2,6 +2,11 @@
   "docsets_to_publish": [
     {
       "docset_name": "fusion-toc-demo",
+ "customized_tasks":{
+         "docset_prebuild":[
+            "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
+         ]
+      },
       "build_source_folder": ".",
       "build_output_subfolder": "fusion-toc-demo",
       "locale": "en-us",
@@ -43,9 +48,7 @@
 "JoinTOCPlugin": [
     {
       "ReferenceTOC": "reference/toc.yml",
-      "ReferenceTOCUrl": "/fusion-toc-demo/reference/toc.json",
-      "ConceptualTOC": "conceptual/toc.yml",
-      "ConceptualTOCUrl": "/fusion-toc-demo/conceptual/toc.json"
+      "ConceptualTOC": "conceptual/toc.yml"
     }
   ],
 
