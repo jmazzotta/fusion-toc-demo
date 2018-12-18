@@ -23,9 +23,9 @@
       "template_folder": "_themes",
       "JoinTOCPlugin": [{
         "ConceptualTOC": "playfab-docs/features/analytics/ab-testing/toc.yml",
-        "ReferenceTOCUrl": "fusion-toc-demo/playfab-docs/api-references/toc.json",
+        "ReferenceTOCUrl": "/fusion-toc-demo/playfab-docs/api-references/toc.json",
         "ReferenceTOC": "playfab-docs/api-references/toc.yml",
-        "ConceptualTOCUrl": "fusion-toc-demo/playfab-docs/features/analytics/ab-testing/toc.json"
+        "ConceptualTOCUrl": "/fusion-toc-demo/playfab-docs/features/analytics/ab-testing/toc.json"
       }]
     }
   ],
