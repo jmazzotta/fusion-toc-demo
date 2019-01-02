@@ -48,7 +48,9 @@
 "JoinTOCPlugin": [
     {
       "ReferenceTOC": "reference/toc.yml",
-      "ConceptualTOC": "conceptual/toc.yml"
+      "ReferenceTOCUrl": "/fusion-toc-demo/reference/toc.json",
+      "ConceptualTOC": "conceptual/toc.yml",
+      "ConceptualTOCUrl": "/fusion-toc-demo/conceptual/toc.json"
     }
   ],
 
